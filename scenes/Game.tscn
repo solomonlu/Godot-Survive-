@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dqsarilqd7igq"]
+
+[ext_resource type="Texture2D" uid="uid://bw2u0qyjh1rqi" path="res://textures/house_inside.png" id="1_balbf"]
+[ext_resource type="PackedScene" uid="uid://c6imn3ntkfa0d" path="res://scenes/UI.tscn" id="1_q3ica"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(575, 325)
+scale = Vector2(0.662435, 0.469818)
+texture = ExtResource("1_balbf")
+
+[node name="UI" parent="." instance=ExtResource("1_q3ica")]
