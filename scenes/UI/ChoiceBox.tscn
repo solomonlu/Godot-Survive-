@@ -1,9 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://cr2aaqex84mbi"]
+[gd_scene load_steps=4 format=3 uid="uid://cr2aaqex84mbi"]
 
+[ext_resource type="Script" path="res://scenes/UI/ChoiceBox.gd" id="1_18jtv"]
 [ext_resource type="Texture2D" uid="uid://b3fodqqdrgxp8" path="res://textures/misc/dialog_box.png" id="1_p4e77"]
 [ext_resource type="FontFile" path="res://fonts/dialog.tres" id="2_kdwmn"]
 
 [node name="ChoiceBox" type="CanvasLayer"]
+script = ExtResource("1_18jtv")
 
 [node name="ChoiceBackground1" type="TextureRect" parent="."]
 anchors_preset = 8
@@ -31,6 +33,8 @@ offset_left = -227.5
 offset_top = -21.0
 offset_right = 227.5
 offset_bottom = 22.0
+grow_horizontal = 2
+grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_kdwmn")
 text = "Choice1"
@@ -62,6 +66,8 @@ offset_left = -227.5
 offset_top = -21.0
 offset_right = 227.5
 offset_bottom = 22.0
+grow_horizontal = 2
+grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_kdwmn")
 text = "Choice2"
@@ -93,6 +99,8 @@ offset_left = -227.5
 offset_top = -21.0
 offset_right = 227.5
 offset_bottom = 22.0
+grow_horizontal = 2
+grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_kdwmn")
 text = "Choice3"
@@ -124,6 +132,8 @@ offset_left = -227.5
 offset_top = -21.0
 offset_right = 227.5
 offset_bottom = 22.0
+grow_horizontal = 2
+grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_kdwmn")
 text = "Choice4"

@@ -1,9 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://dqsarilqd7igq"]
+[gd_scene load_steps=4 format=3 uid="uid://dqsarilqd7igq"]
 
 [ext_resource type="Texture2D" uid="uid://bw2u0qyjh1rqi" path="res://textures/house_inside.png" id="1_balbf"]
 [ext_resource type="PackedScene" uid="uid://c6imn3ntkfa0d" path="res://scenes/UI.tscn" id="1_q3ica"]
+[ext_resource type="Script" path="res://scenes/Game.gd" id="1_wccw8"]
 
 [node name="Game" type="Node2D"]
+script = ExtResource("1_wccw8")
 
 [node name="Background" type="TextureRect" parent="."]
 anchors_preset = 8
@@ -19,3 +21,5 @@ scale = Vector2(0.662435, 0.469818)
 texture = ExtResource("1_balbf")
 
 [node name="UI" parent="." instance=ExtResource("1_q3ica")]
+
+[connection signal="ready" from="Background" to="." method="_on_background_ready"]

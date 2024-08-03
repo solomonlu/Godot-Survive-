@@ -166,6 +166,20 @@ tracks/1/keys = {
 "update": 1,
 "values": [false]
 }
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(2),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["dialog_ended"],
+"method": &"emit_signal"
+}]
+}
 
 [sub_resource type="Animation" id="4"]
 loop_mode = 1
@@ -202,13 +216,13 @@ _data = {
 "wait": SubResource("4")
 }
 
-[node name="Dialog_box" type="TextureRect"]
+[node name="Dialog_box" type="TextureRect" groups=["DialogBox"]]
 anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_top = -221.0
-offset_bottom = -46.9998
+offset_bottom = -47.0
 texture = ExtResource("1_odloh")
 expand_mode = 1
 stretch_mode = 6
@@ -226,7 +240,7 @@ theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_uh0h8")
 text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper molestie erat, id aliquam nulla iaculis a. Suspendisse consectetur vehicula consequat. Integer mollis libero sed sem convallis, vitae rutrum metus dapibus. Phasellus purus quam, euismod id diam ut, semper sagittis ipsum. Aenean vel mollis lectus, quis placerat eros. Donec elementum vestibulum augue dignissim vehicula. Mauris ultricies lacus id odio aliquet, eu iaculis urna sodales. "
 clip_text = true
-visible_characters = 149
+visible_characters = 150
 visible_ratio = 0.331858
 
 [node name="next_dialog_arrow" type="TextureRect" parent="."]

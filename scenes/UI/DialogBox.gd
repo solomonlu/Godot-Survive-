@@ -18,10 +18,14 @@ var lines_to_skip = 0
 
 func _ready():
 	Dialogs.dialog_box = self
-	#hide()
+	hide()
 	pass # Replace with function body.
+	
+	
+func show_dialog():
+	$anims.play("appear")
 
-func show_dialog(new_text, speaker):
+func show_dialog_old(new_text, speaker):
 	dialog_text.text = new_text
 	$nametag/label.text = speaker
 	lines_to_skip = 0
