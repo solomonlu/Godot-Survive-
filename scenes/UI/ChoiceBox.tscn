@@ -22,22 +22,36 @@ grow_vertical = 2
 texture = ExtResource("1_p4e77")
 expand_mode = 1
 
-[node name="ChoiceText1" type="Label" parent="ChoiceBackground1"]
+[node name="ChoiceText1" type="Button" parent="ChoiceBackground1"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -227.5
+offset_left = -226.0
 offset_top = -21.0
-offset_right = 227.5
+offset_right = 229.0
 offset_bottom = 22.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_normal_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_disabled_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_kdwmn")
 text = "Choice1"
+flat = true
+alignment = 0
 clip_text = true
 
 [node name="ChoiceBackground2" type="TextureRect" parent="."]
@@ -55,7 +69,7 @@ grow_vertical = 2
 texture = ExtResource("1_p4e77")
 expand_mode = 1
 
-[node name="ChoiceText2" type="Label" parent="ChoiceBackground2"]
+[node name="ChoiceText2" type="Button" parent="ChoiceBackground2"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -69,8 +83,22 @@ offset_bottom = 22.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_normal_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_disabled_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_kdwmn")
 text = "Choice2"
+flat = true
+alignment = 0
 clip_text = true
 
 [node name="ChoiceBackground3" type="TextureRect" parent="."]
@@ -88,7 +116,7 @@ grow_vertical = 2
 texture = ExtResource("1_p4e77")
 expand_mode = 1
 
-[node name="ChoiceText3" type="Label" parent="ChoiceBackground3"]
+[node name="ChoiceText3" type="Button" parent="ChoiceBackground3"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -102,8 +130,22 @@ offset_bottom = 22.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_normal_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_disabled_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_kdwmn")
 text = "Choice3"
+flat = true
+alignment = 0
 clip_text = true
 
 [node name="ChoiceBackground4" type="TextureRect" parent="."]
@@ -121,7 +163,7 @@ grow_vertical = 2
 texture = ExtResource("1_p4e77")
 expand_mode = 1
 
-[node name="ChoiceText4" type="Label" parent="ChoiceBackground4"]
+[node name="ChoiceText4" type="Button" parent="ChoiceBackground4"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -135,6 +177,25 @@ offset_bottom = 22.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_normal_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_disabled_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_kdwmn")
 text = "Choice4"
+flat = true
+alignment = 0
 clip_text = true
+
+[connection signal="pressed" from="ChoiceBackground1/ChoiceText1" to="." method="_on_choice_text_1_pressed"]
+[connection signal="pressed" from="ChoiceBackground2/ChoiceText2" to="." method="_on_choice_text_2_pressed"]
+[connection signal="pressed" from="ChoiceBackground3/ChoiceText3" to="." method="_on_choice_text_3_pressed"]
+[connection signal="pressed" from="ChoiceBackground4/ChoiceText4" to="." method="_on_choice_text_4_pressed"]
