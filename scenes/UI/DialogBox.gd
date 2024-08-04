@@ -8,7 +8,7 @@ dialog text, two lines at a time.
 """
 
 @onready var dialog_text = $dialog_text
-
+@onready var current_scene = ChoiceConfig.choices[GameState.current_scene]
 # warning-ignore:unused_signal
 signal dialog_started
 # warning-ignore:unused_signal
@@ -18,6 +18,7 @@ var lines_to_skip = 0
 
 func _ready():
 	Dialogs.dialog_box = self
+	$dialog_text.text = current_scene.content
 	hide()
 	
 func show_dialog():
