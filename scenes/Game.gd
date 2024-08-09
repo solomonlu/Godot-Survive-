@@ -13,7 +13,6 @@ func _input(event):
 			STATE_IMAGE_ONLY:
 				state = STATE_INVALID
 				get_tree().call_group("DialogBox", "show_dialog")
-				var dialogBox = get_tree().get_first_node_in_group("DialogBox")
 				Dialogs.dialog_ended.connect(_on_dialog_end)
 				pass
 			STATE_DIALOG_SHOW:

@@ -23,8 +23,7 @@ func _ready():
 		$ChoiceBackground4.show()
 		$ChoiceBackground4/ChoiceText4.text = current_scene.choice[3].content
 	
-	_transition_rect = preload("res://scenes/Transition.tscn").instantiate()
-	add_child(_transition_rect)
+	_transition_rect = get_tree().current_scene.get_node("CanvasLayer/SceneTransitionRect")
 	hide()
 
 
