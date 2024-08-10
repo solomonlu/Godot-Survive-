@@ -23,6 +23,8 @@ texture = ExtResource("1_balbf")
 
 [node name="UI" parent="CanvasLayer" instance=ExtResource("1_q3ica")]
 
-[node name="SceneTransitionRect" parent="CanvasLayer" instance=ExtResource("4_rc0q5")]
+[node name="TranstionLayer" type="CanvasLayer" parent="."]
+
+[node name="SceneTransitionRect" parent="TranstionLayer" instance=ExtResource("4_rc0q5")]
 
 [connection signal="ready" from="CanvasLayer/Background" to="." method="_on_background_ready"]

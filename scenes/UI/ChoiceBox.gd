@@ -23,7 +23,7 @@ func _ready():
 		$ChoiceBackground4.show()
 		$ChoiceBackground4/ChoiceText4.text = current_scene.choice[3].content
 	
-	_transition_rect = get_tree().current_scene.get_node("CanvasLayer/SceneTransitionRect")
+	_transition_rect = get_tree().current_scene.get_node("TranstionLayer/SceneTransitionRect")
 	hide()
 
 
