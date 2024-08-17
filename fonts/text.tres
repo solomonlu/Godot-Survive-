@@ -1,0 +1,6 @@
+[gd_resource type="FontVariation" load_steps=2 format=3 uid="uid://d0cdvji222iu8"]
+
+[ext_resource type="FontFile" uid="uid://c4rc38sbhfnqa" path="res://fonts/msyh.ttc" id="1_54xhd"]
+
+[resource]
+base_font = ExtResource("1_54xhd")

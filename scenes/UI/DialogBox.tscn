@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://b3fodqqdrgxp8" path="res://textures/misc/dialog_box.png" id="1_odloh"]
 [ext_resource type="Script" path="res://scenes/UI/DialogBox.gd" id="2_44tpu"]
-[ext_resource type="FontFile" path="res://fonts/dialog.tres" id="3_uh0h8"]
+[ext_resource type="FontVariation" uid="uid://d0cdvji222iu8" path="res://fonts/text.tres" id="3_uwj8m"]
 [ext_resource type="Texture2D" uid="uid://yvcilxc7las2" path="res://textures/misc/next_dialog_arrow.png" id="4_q5y47"]
 
 [sub_resource type="Animation" id="1"]
@@ -210,7 +210,9 @@ anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_top = -221.0
-offset_bottom = -47.0
+offset_bottom = -21.0
+grow_horizontal = 2
+grow_vertical = 0
 texture = ExtResource("1_odloh")
 expand_mode = 1
 stretch_mode = 6
@@ -225,7 +227,7 @@ offset_top = 45.0
 offset_right = -58.0
 offset_bottom = -38.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("3_uh0h8")
+theme_override_fonts/font = ExtResource("3_uwj8m")
 theme_override_font_sizes/font_size = 24
 text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper molestie erat, id aliquam nulla iaculis a. Suspendisse consectetur vehicula consequat. Integer mollis libero sed sem convallis, vitae rutrum metus dapibus. Phasellus purus quam, euismod id diam ut, semper sagittis ipsum. Aenean vel mollis lectus, quis placerat eros. Donec elementum vestibulum augue dignissim vehicula. Mauris ultricies lacus id odio aliquet, eu iaculis urna sodales. "
 autowrap_mode = 2
@@ -267,8 +269,9 @@ offset_top = -21.0
 offset_right = 227.5
 offset_bottom = 22.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("3_uh0h8")
-text = "Character Name"
+theme_override_fonts/font = ExtResource("3_uwj8m")
+text = "测试 测试"
+vertical_alignment = 1
 clip_text = true
 
 [node name="anims" type="AnimationPlayer" parent="."]

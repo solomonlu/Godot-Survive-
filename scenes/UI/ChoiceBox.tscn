@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scenes/UI/ChoiceBox.gd" id="1_18jtv"]
 [ext_resource type="Texture2D" uid="uid://b3fodqqdrgxp8" path="res://textures/misc/dialog_box.png" id="1_p4e77"]
-[ext_resource type="FontFile" path="res://fonts/dialog.tres" id="2_kdwmn"]
+[ext_resource type="FontVariation" uid="uid://d0cdvji222iu8" path="res://fonts/text.tres" id="3_kcpwm"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_r5q4x"]
 
@@ -56,8 +56,8 @@ theme_override_colors/icon_hover_color = Color(0, 0, 0, 1)
 theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/icon_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/icon_disabled_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("2_kdwmn")
-theme_override_font_sizes/font_size = 20
+theme_override_fonts/font = ExtResource("3_kcpwm")
+theme_override_font_sizes/font_size = 15
 theme_override_styles/focus = SubResource("StyleBoxEmpty_r5q4x")
 text = "Choice1"
 flat = true
@@ -105,8 +105,8 @@ theme_override_colors/icon_hover_color = Color(0, 0, 0, 1)
 theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/icon_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/icon_disabled_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("2_kdwmn")
-theme_override_font_sizes/font_size = 20
+theme_override_fonts/font = ExtResource("3_kcpwm")
+theme_override_font_sizes/font_size = 15
 theme_override_styles/focus = SubResource("StyleBoxEmpty_5q6hx")
 text = "Choice2"
 flat = true
@@ -154,8 +154,8 @@ theme_override_colors/icon_hover_color = Color(0, 0, 0, 1)
 theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/icon_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/icon_disabled_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("2_kdwmn")
-theme_override_font_sizes/font_size = 20
+theme_override_fonts/font = ExtResource("3_kcpwm")
+theme_override_font_sizes/font_size = 15
 theme_override_styles/focus = SubResource("StyleBoxEmpty_bckqg")
 text = "Choice3"
 flat = true
@@ -203,8 +203,8 @@ theme_override_colors/icon_hover_color = Color(0, 0, 0, 1)
 theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/icon_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/icon_disabled_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("2_kdwmn")
-theme_override_font_sizes/font_size = 20
+theme_override_fonts/font = ExtResource("3_kcpwm")
+theme_override_font_sizes/font_size = 15
 theme_override_styles/focus = SubResource("StyleBoxEmpty_x1m5q")
 text = "Choice4"
 flat = true
