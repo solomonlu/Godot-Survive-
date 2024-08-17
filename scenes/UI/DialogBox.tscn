@@ -270,7 +270,7 @@ offset_right = 227.5
 offset_bottom = 22.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_uwj8m")
-text = "测试 测试"
+text = "LOCAL_TEST1"
 vertical_alignment = 1
 clip_text = true
 

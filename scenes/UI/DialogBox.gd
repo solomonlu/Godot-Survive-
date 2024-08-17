@@ -24,6 +24,11 @@ func _ready():
 func show_dialog():
 	$anims.play("appear")
 
+func _notification(what):
+	if what == NOTIFICATION_TRANSLATION_CHANGED:
+		$nametag/label.text = tr("LOCAL_TEST1")
+		
+		
 #func show_dialog_old(new_text, speaker):
 	#dialog_text.text = new_text
 	#$nametag/label.text = speaker
