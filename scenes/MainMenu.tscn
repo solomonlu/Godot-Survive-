@@ -1,3 +1,163 @@
-[gd_scene format=3 uid="uid://bqvkf56gr1smv"]
+[gd_scene load_steps=9 format=3 uid="uid://bqvkf56gr1smv"]
+
+[ext_resource type="Script" path="res://scenes/MainMenu.gd" id="1_k7xjb"]
+[ext_resource type="FontVariation" uid="uid://d0cdvji222iu8" path="res://fonts/text.tres" id="1_xrcvn"]
+[ext_resource type="Texture2D" uid="uid://c63n6yl02q2mp" path="res://textures/background/main_menu.jpg" id="2_ob88w"]
+[ext_resource type="Texture2D" uid="uid://b3fodqqdrgxp8" path="res://textures/misc/dialog_box.png" id="3_twyyf"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_s77fc"]
+
+[sub_resource type="Animation" id="Animation_pg008"]
+resource_name = "Change_sence"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasLayer2/ColorRect:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_7katp"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasLayer2/ColorRect:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_5jx6b"]
+_data = {
+"Change_sence": SubResource("Animation_pg008"),
+"RESET": SubResource("Animation_7katp")
+}
 
 [node name="MainMenu" type="Node2D"]
+script = ExtResource("1_k7xjb")
+
+[node name="CanvasLayer1" type="CanvasLayer" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer1"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_ob88w")
+
+[node name="ButtonBackground" type="TextureRect" parent="CanvasLayer1"]
+offset_left = 57.0
+offset_top = 57.0
+offset_right = 271.0
+offset_bottom = 135.0
+texture = ExtResource("3_twyyf")
+expand_mode = 1
+
+[node name="New" type="Button" parent="CanvasLayer1/ButtonBackground"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -151.0
+offset_top = -36.0
+offset_right = 154.0
+offset_bottom = 26.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.967961, 1.07799)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_normal_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_disabled_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_xrcvn")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/focus = SubResource("StyleBoxEmpty_s77fc")
+text = "New"
+flat = true
+clip_text = true
+
+[node name="ButtonBackground2" type="TextureRect" parent="CanvasLayer1"]
+offset_left = 56.0
+offset_top = 143.0
+offset_right = 270.0
+offset_bottom = 221.0
+texture = ExtResource("3_twyyf")
+expand_mode = 1
+
+[node name="Quit" type="Button" parent="CanvasLayer1/ButtonBackground2"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -152.0
+offset_top = -38.0
+offset_right = 153.0
+offset_bottom = 24.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.967961, 1.07799)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_normal_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_disabled_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_xrcvn")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/focus = SubResource("StyleBoxEmpty_s77fc")
+text = "Quit
+"
+flat = true
+clip_text = true
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer2"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_5jx6b")
+}
+
+[connection signal="pressed" from="CanvasLayer1/ButtonBackground/New" to="." method="_on_new_pressed"]
+[connection signal="pressed" from="CanvasLayer1/ButtonBackground2/Quit" to="." method="_on_quit_pressed"]
