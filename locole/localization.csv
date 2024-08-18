@@ -1,2 +1,90 @@
 ﻿keys,en,CN
-LOCAL_TEST1,test test,测试测试
+LOCALE_TEST1,test test,测试测试
+LOCALE_CONTENT_1,"Your name is Chris, and you are in a small plane, going across the Rocky Mountains. Suddenly the engine starts to make strange noises and the plane begins to go down into one of the mountains. Your radio does not work, and nobody knows where you are.",你的名字叫克里斯，你在一架小飞机上，穿越落基山脉。突然，发动机开始发出奇怪的噪音，飞机开始坠入其中一座山。你的收音机坏了，没有人知道你在哪里。
+LOCALE_CONTENT_2,"You walk for about twenty minutes, wearing the coat and carrying the whisky and the map. The snow is deep and you are very cold.",你穿着外套，拿着威士忌和地图，走了大约二十分钟。雪很深，你很冷。
+LOCALE_CONTENT_3,You go back to sleep.You don't hear the helicopter again.The next day you walk down the river again.,你回去睡了。你再也听不到直升机的声音了。第二天，你又沿着河边走了。
+LOCALE_CONTENT_4,You walk back out of the tunnel and into the rocky valley.,你走出隧道，走进岩石山谷。
+LOCALE_CONTENT_5,"You eat the fruit.It isn't very good,but you're very hungry so you eat a lot.You take some with you.you can eat it later.",你吃水果。它不是很好，但你很饿，所以你吃了很多。你随身携带一些，稍后可以食用。
+LOCALE_CONTENT_6,"You walk for about twenty minutes, wearing the coat and carrying the bananas and cigarette lighter. The snow is deep and you are very cold. You go into the trees and light a fire.",你穿着外套，拿着香蕉和打火机，走了大约二十分钟。雪很深，你很冷。你走进树林，生火。
+LOCALE_CONTENT_7,"It's evening again, but because of the fish you are not hungry. You make a small house under the trees. You wake up early in the morning. There's a helicopter in the sky. You can see it, but it can't see you because of the trees, and it is going away.",又到了晚上，但因为有鱼，你不饿。你在树下建了一座小房子。你一大早就醒了。天空中有一架直升机。你可以看到它，但由于树木的原因，它看不见你，它正在消失。
+LOCALE_CONTENT_8,"You are a long way down the valley, and it is nearly night again. You make a fire in the trees and eat the bananas. The next morning you are very hungry. You must find something to eat. In the snow you see the tracks of an animal. Perhaps you can kill and eat this animal.",你在山谷里走了很长的路，又快到晚上了。你在树上生火，吃香蕉。第二天早上你很饿。你必须找点吃的。在雪地里，你可以看到动物的足迹。也许你可以杀死并吃掉这种动物。
+LOCALE_CONTENT_9,"You walk for a few minutes,carrying the bananas,the cigarette lighter and the map.But it is very cold.",你拿着香蕉、打火机和地图走了几分钟。但天气很冷。
+LOCALE_CONTENT_10,It is now afternoon. You begin to feel very ill. Perhaps the fruit is poisonous. You sit down in the snow. You cannot walk. You sit in the snow and get colder and colder.,现在是下午。你开始觉得很不舒服。也许水果有毒。你坐在雪地里。你不能走路。你坐在雪地里，越来越冷。
+LOCALE_CONTENT_11,You turn to the right and plane hits the trees.,你向右转，飞机撞上了树。
+LOCALE_CONTENT_12,"You walk across the lake.After a few minutes,you go through the ice,and you fall into the icy water.",你穿过湖。几分钟后，你穿过冰面，掉进了冰冷的水中。
+LOCALE_CONTENT_13,"You walk for a few minutes,carrying the whisky,the cigarette lighter and the bananas.You are very cold.",你拿着威士忌、打火机和香蕉走了几分钟。你很冷。
+LOCALE_CONTENT_14,"There is ice over the river, but there are holes in it. You see that there are fish in the river. Perhaps you can catch a fish and eat it.",河上有冰，但上面有洞。你看，河里有鱼。也许你可以抓一条鱼吃。
+LOCALE_CONTENT_15,"You turn to the left because you want to land on the snow.The plane goes into the snow and stops.You are safe,but you are at the top of a mountain and it is very cold.And it is evening",你左转是因为你想降落在雪地上。飞机在雪地里停了下来。你很安全，但你在山顶，天气很冷。现在是傍晚
+LOCALE_CONTENT_16,It is very difficult to go past the rocks in the valley.After a few minutes you are very tired.,穿过山谷里的岩石很难。几分钟后，你很累。
+LOCALE_CONTENT_17,You walk through the trees down the mountain.You are very hungry.You see some strange fruit on one of the trees.,你穿过树林下山。你饿极了。你看到一棵树上结了一些奇怪的水果。
+LOCALE_CONTENT_18,"You walk carefully onto the lake.After a few hundred metres,the ice begins to move under your feet.",你小心地走到湖边。几百米后，冰开始在你脚下移动。
+LOCALE_CONTENT_19,You make another fire. After about two hours you hear the helicopter again. This time it sees the smoke and lands on the snow near you. You are safe. You fly to the hospital where you can rest and eat.,你再生火。大约两个小时后，你又听到了直升机的声音。这一次，它看到了烟雾，落在了你附近的雪地上。你很安全。你飞到医院，在那里你可以休息和吃饭。
+LOCALE_CONTENT_20,You are going down very fast into the mountain but you can turn the plane to the left or the right.To the right there are some trees.To the left there is deep snow.,你很快就要下山了，但你可以把飞机左转或右转。右边有一些树。左边是厚厚的雪。
+LOCALE_CONTENT_21,"You walk on down the river. You are now very hungry. You must eat something. There is fruit on the trees, of fish in the river.",你沿着河边走。你现在很饿。你必须吃点东西。树上有果实，河里有鱼。
+LOCALE_CONTENT_22,The rope breaks.,绳子断了。
+LOCALE_CONTENT_23,"You continue through the snow. There is nothing to eat, but you can make fires, and there is snow to drink. Sunddenly you come to an ice lake.",你继续穿过雪地。没有东西吃，但你可以生火，还有雪喝。只有你来到一个冰湖。
+LOCALE_CONTENT_24,You stay in the plane. But it is very cold. Do you really want to die?,你留在飞机上。但天气很冷。你真的想死吗？
+LOCALE_CONTENT_25,You stay in the plane for four days. You see and hear nothing. You must go down the mountain.,你在飞机上呆了四天。你什么也看不见，什么也听不见。你必须下山。
+LOCALE_CONTENT_26,"You fish for about twenty minutes.Finally you catch one.You catch more.You are now very cold,so you make a fire and cook and eat a fish.It's very good.",你钓鱼大约二十分钟。最后你抓到一个。你抓得更多。你现在很冷，所以你生火做饭吃鱼。它非常好。
+LOCALE_CONTENT_27,You go down the mountain.After a few minutes you see a tunnel in front of you.There is a small valley to you left with a lot of rocks in it.,你下山去。几分钟后，你看到前方有一条隧道。你身后有一个小山谷，里面有很多岩石。
+LOCALE_CONTENT_28,You walk around the lake. After about five kilometres you find a river. The water is going out of the lake and down a valley.,你绕着湖走。大约五公里后，你会发现一条河。水正从湖里流出，顺着山谷流下去。
+LOCALE_CONTENT_29,You want to go down the mountain.There are some things in the plane.You can take some of them with you.What do you take?,你想下山。飞机上有些东西。你可以随身携带其中一些。你带什么？
+LOCALE_CONTENT_30,"You run after the helicopter but it is going very fast.You have to go up the mountain,and you walk all day in the deep snow,but you don't see the helicopter again.",你追赶直升机，但它飞得很快。你必须上山，在深雪中走一整天，但你再也看不到直升机了。
+LOCALE_CONTENT_31,The smoke goes up into the sky all day.But you don't see the helicopter.You wait all day.The next morning you wake up early again.,烟整天都升到天上。但你看不到直升机。你等了一整天。第二天早上，你又醒得很早。
+LOCALE_CONTENT_32,You stay near the plane. You sit by the fire and watch the sky for two days. Nothing happens.,你待在飞机附近。你坐在炉火旁，看了两天的天空。什么都没发生。
+LOCALE_CONTENT_33,You walk into the tunnel.It's very dark.You see a lamp and you light it.,你走进隧道。天很黑。你看到一盏灯，就把它点燃了。
+LOCALE_CONTENT_34,"You want to get warm, so you drink the whisky. But you don't get warm, you just feel tired, very tired.",你想暖和一下，所以你喝了威士忌。但你没有得到温暖，你只是觉得累了，非常累。
+LOCALE_CONTENT_35,You build a big fire. There is a lot of smoke. You watch it go up into the sky.,你制造了一场大火。有很多烟。你看着它飞向天空。
+LOCALE_CONTENT_36,"You sit all night in the trees in front of your fire.It is cold,but you have a good fire.You can sleep a little.You need to think about what you can do in the morning.",你整晚都坐在炉火前的树上。天气很冷，但你有一堆好火。你可以睡一会儿。你需要考虑早上能做什么。
+LOCALE_CONTENT_37,You shout at the helicopter and wave your arms. The helicopter turns and comes back for a minute. Then it starts to go up the mountain.,你对着直升机大喊大叫，挥舞着双臂。直升机转弯后回来了一分钟。然后它开始上山。
+LOCALE_CONTENT_38,You walk all round the lake.You are very tired and you don't find anything to eat.You must go to down the river.,你绕着湖走。你很累，找不到任何东西吃。你必须顺流而下。
+LOCALE_CONTENT_39,You walk in the tracks for a long way through the trees. They go behind a big tree. You look behind the tree and you see a very big bear. You don't think you can eat this. You walk quietly away.,你在小径上穿过树林走了很长一段路。他们走到一棵大树后面。你往树后面看，你看到一只非常大的熊。你认为你不能吃这个。你悄悄地走开了。
+LOCALE_CONTENT_40,You walk down into the mountain for about ten minutes.You come to a big hole in the ground.There is an old rope in the hole.,你步行到山上大约十分钟。你来到地上的一个大洞。洞里有一根旧绳子。
+LOCALE_NEXT,Next,继续
+LOCALE_CHOICE_2_1,You go back to the plane and get some different things.,你回到飞机上，得到一些不同的东西。
+LOCALE_CHOICE_2_2,You want to get warm and you drink the whisky.,你想暖和一下，就喝了威士忌。
+LOCALE_CHOICE_7_1,You run after the helicopter.,你追着直升机跑。
+LOCALE_CHOICE_7_2,You go back to sleep.,你回去睡觉了。
+LOCALE_CHOICE_7_3,You build a big fire.,你制造了一场大火。
+LOCALE_CHOICE_7_4,You shout at the helicopter and wave your arms.,你对着直升机大喊大叫，挥舞着双臂。
+LOCALE_CHOICE_8_1,You walk after the tracks.,你沿着踪迹走。
+LOCALE_CHOICE_8_2,You are afraid of big animals. Perhaps the animal is dangerous. You walk down the mountain.,你害怕大动物。也许这只动物很危险。你走下山去。
+LOCALE_CHOICE_9_1,You go back to the plane and get some different things.,你回到飞机上，拿一些不同的东西。
+LOCALE_CHOICE_9_2,You go back to the plane and get the whisky.,你回到飞机上，拿了威士忌。
+LOCALE_CHOICE_13_1,You drink the whisky.,你喝了威士忌。
+LOCALE_CHOICE_13_2,"You go back to the plane,leave the whisky and take the coat.",你回到飞机上，留下威士忌，拿上外套。
+LOCALE_CHOICE_14_1,You try and catch a fish through the ice.,你试着在冰里抓一条鱼。
+LOCALE_CHOICE_14_2,Finshing in the river si very dangerous. You walk on.,在河里钓鱼很危险。你继续走。
+LOCALE_CHOICE_15_1,You stay in the plane.,你留在飞机上。
+LOCALE_CHOICE_15_2,You go down the mountain.,你下山去。
+LOCALE_CHOICE_16_1,You go on down the valley.,你继续沿着山谷往下走。
+LOCALE_CHOICE_16_2,You go back up the valley and into the tunnel.,你回到山谷，进入隧道。
+LOCALE_CHOICE_17_1,You eat the fruit.,你吃了水果。
+LOCALE_CHOICE_17_2,You don't eat the fruit.,你没吃水果。
+LOCALE_CHOICE_18_1,You go on across the lake.,你继续穿过湖。
+LOCALE_CHOICE_18_2,You go back and walk around the lake.,你回去绕着湖走。
+LOCALE_CHOICE_20_1,You turn to the right.,你向右转。
+LOCALE_CHOICE_20_2,You turn to the left.,你向左转。
+LOCALE_CHOICE_21_1,You try and catch a fish.,你试着抓一条鱼。
+LOCALE_CHOICE_21_2,You eat some fruit.,你吃了点水果。
+LOCALE_CHOICE_23_1,"You walk across the lake. It's quicker, and you must find something to eat.",你穿过湖。它更快，你必须找点吃的。
+LOCALE_CHOICE_23_2,You walk around the lake. You can look for a river.,你绕着湖走。你可以找一条河。
+LOCALE_CHOICE_27_1,You go down the valley.,你沿着山谷往下走。
+LOCALE_CHOICE_27_2,You go into the tunnel.,你进入隧道。
+LOCALE_CHOICE_28_1,You go on around the lake.,你继续绕着湖走。
+LOCALE_CHOICE_28_2,You walk down the river.,你沿着河边走。
+LOCALE_CHOICE_29_1,"The coat,the whisky,and the map.",外套、威士忌和地图。
+LOCALE_CHOICE_29_2,"The coat,the bananas,and the cigarette lighter.",外套、香蕉和打火机。
+LOCALE_CHOICE_29_3,"The bananas,the cigarette lighter,and the map.",香蕉、打火机和地图。
+LOCALE_CHOICE_29_4,"The whisky,the cigarette lighter,and the bananas.",威士忌、打火机和香蕉。
+LOCALE_CHOICE_30_1,You build another fire.,你生了另一堆火。
+LOCALE_CHOICE_30_2,You walk down the river.,你沿着河边走。
+LOCALE_CHOICE_32_1,You stay near the plane.,你待在飞机附近。
+LOCALE_CHOICE_32_2,You try and go down the mountain.,你试着下山。
+LOCALE_CHOICE_36_1,You stay near the plane with a fire.,你待在飞机附近，生了一堆火。
+LOCALE_CHOICE_36_2,You go down the mountain.,你下山去。
+LOCALE_CHOICE_37_1,You run after the helicopter.,你追着直升机跑。
+LOCALE_CHOICE_37_2,You go back to sleep.,你回去睡觉了。
+LOCALE_CHOICE_37_3,You build a big fire.,你制造了一场大火。
+LOCALE_CHOICE_40_1,You go down the rope.,你顺着绳子往下走。
+LOCALE_CHOICE_40_2,You go back up the tunnel.,你回到隧道上去。

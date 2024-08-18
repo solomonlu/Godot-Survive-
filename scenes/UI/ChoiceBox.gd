@@ -12,16 +12,16 @@ func _ready():
 	$ChoiceBackground4.hide()
 	if len(current_scene.choice) >= 1:
 		$ChoiceBackground1.show()
-		$ChoiceBackground1/ChoiceText1.text = current_scene.choice[0].content
+		$ChoiceBackground1/ChoiceText1.text = tr(current_scene.choice[0].content)
 	if len(current_scene.choice) >= 2:
 		$ChoiceBackground2.show()
-		$ChoiceBackground2/ChoiceText2.text = current_scene.choice[1].content
+		$ChoiceBackground2/ChoiceText2.text = tr(current_scene.choice[1].content)
 	if len(current_scene.choice) >= 3:
 		$ChoiceBackground3.show()
-		$ChoiceBackground3/ChoiceText3.text = current_scene.choice[2].content
+		$ChoiceBackground3/ChoiceText3.text = tr(current_scene.choice[2].content)
 	if len(current_scene.choice) >= 4:
 		$ChoiceBackground4.show()
-		$ChoiceBackground4/ChoiceText4.text = current_scene.choice[3].content
+		$ChoiceBackground4/ChoiceText4.text = tr(current_scene.choice[3].content)
 	
 	_transition_rect = get_tree().current_scene.get_node("TranstionLayer/SceneTransitionRect")
 	hide()
@@ -61,3 +61,14 @@ func _on_choice_text_4_pressed():
 	GameState.current_scene = current_scene.choice[3].next
 	_transition_rect.do_transition()
 	pass # Replace with function body.
+
+func _notification(what):
+	if what == NOTIFICATION_TRANSLATION_CHANGED:
+		if len(current_scene.choice) >= 1:
+			$ChoiceBackground1/ChoiceText1.text = tr(current_scene.choice[0].content)
+		if len(current_scene.choice) >= 2:
+			$ChoiceBackground2/ChoiceText2.text = tr(current_scene.choice[1].content)
+		if len(current_scene.choice) >= 3:
+			$ChoiceBackground3/ChoiceText3.text = tr(current_scene.choice[2].content)
+		if len(current_scene.choice) >= 4:
+			$ChoiceBackground4/ChoiceText4.text = tr(current_scene.choice[3].content)

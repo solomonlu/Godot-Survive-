@@ -18,7 +18,7 @@ var lines_to_skip = 0
 
 func _ready():
 	Dialogs.dialog_box = self
-	$dialog_text.text = current_scene.content
+	$dialog_text.text = tr(current_scene.content)
 	hide()
 	
 func show_dialog():
@@ -26,7 +26,7 @@ func show_dialog():
 
 func _notification(what):
 	if what == NOTIFICATION_TRANSLATION_CHANGED:
-		$nametag/label.text = tr("LOCAL_TEST1")
+		$dialog_text.text = tr(current_scene.content)
 		
 		
 #func show_dialog_old(new_text, speaker):
