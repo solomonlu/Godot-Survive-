@@ -8,7 +8,8 @@ func _ready():
 	_anim_player.play_backwards("Fade")
 
 func do_transition():
-	_anim_player.play("Fade")
-	await _anim_player.animation_finished
-	# Changes the scene
-	get_tree().change_scene_to_file(next_scene_path)
+	if not _anim_player.is_playing():
+		_anim_player.play("Fade")
+		await _anim_player.animation_finished
+		# Changes the scene
+		get_tree().change_scene_to_file(next_scene_path)
