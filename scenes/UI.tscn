@@ -18,13 +18,14 @@ script = ExtResource("1_gmc6l")
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -63.0
+offset_left = -88.0
 offset_top = 16.0
 offset_right = -20.0
-offset_bottom = 47.0
+offset_bottom = 66.0
 grow_horizontal = 0
 theme_override_fonts/font = ExtResource("4_rb8tp")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_7dptj")
 text = "en"
+expand_icon = true
 
 [connection signal="pressed" from="ChangeLanguage" to="." method="_on_change_language_pressed"]

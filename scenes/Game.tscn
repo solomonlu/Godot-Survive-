@@ -13,11 +13,8 @@ script = ExtResource("1_wccw8")
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_right = 581.0
-offset_bottom = 727.0
 grow_horizontal = 2
 grow_vertical = 2
-scale = Vector2(0.662435, 0.469818)
 
 [node name="UI" parent="CanvasLayer" instance=ExtResource("1_q3ica")]
 
