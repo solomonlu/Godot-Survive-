@@ -1,11 +1,16 @@
-[gd_scene load_steps=9 format=3 uid="uid://bqvkf56gr1smv"]
+[gd_scene load_steps=11 format=3 uid="uid://bqvkf56gr1smv"]
 
 [ext_resource type="Script" path="res://scenes/MainMenu.gd" id="1_k7xjb"]
 [ext_resource type="FontVariation" uid="uid://d0cdvji222iu8" path="res://fonts/text.tres" id="1_xrcvn"]
 [ext_resource type="Texture2D" uid="uid://c63n6yl02q2mp" path="res://textures/background/main_menu.jpg" id="2_ob88w"]
 [ext_resource type="Texture2D" uid="uid://b3fodqqdrgxp8" path="res://textures/misc/dialog_box.png" id="3_twyyf"]
+[ext_resource type="FontFile" uid="uid://c4rc38sbhfnqa" path="res://fonts/msyh.ttc" id="5_5euok"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_s77fc"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_nhrbv"]
+font = ExtResource("5_5euok")
+font_size = 35
 
 [sub_resource type="Animation" id="Animation_pg008"]
 resource_name = "Change_sence"
@@ -100,10 +105,10 @@ flat = true
 clip_text = true
 
 [node name="ButtonBackground2" type="TextureRect" parent="CanvasLayer1"]
-offset_left = 56.0
-offset_top = 143.0
-offset_right = 270.0
-offset_bottom = 221.0
+offset_left = 57.0
+offset_top = 229.0
+offset_right = 271.0
+offset_bottom = 307.0
 texture = ExtResource("3_twyyf")
 expand_mode = 1
 
@@ -142,6 +147,103 @@ text = "Quit
 flat = true
 clip_text = true
 
+[node name="ButtonBackground3" type="TextureRect" parent="CanvasLayer1"]
+offset_left = 56.0
+offset_top = 143.0
+offset_right = 270.0
+offset_bottom = 221.0
+texture = ExtResource("3_twyyf")
+expand_mode = 1
+
+[node name="Staff" type="Button" parent="CanvasLayer1/ButtonBackground3"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -152.0
+offset_top = -38.0
+offset_right = 153.0
+offset_bottom = 24.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.967961, 1.07799)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_normal_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_disabled_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_xrcvn")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/focus = SubResource("StyleBoxEmpty_s77fc")
+text = "Staff"
+flat = true
+clip_text = true
+
+[node name="Label" type="Label" parent="CanvasLayer1"]
+offset_left = 78.0
+offset_top = 43.0
+offset_right = 385.0
+offset_bottom = 295.0
+text = "制作人员：
+陆宇晨
+陆子诺
+陆子诺爸爸"
+label_settings = SubResource("LabelSettings_nhrbv")
+
+[node name="ButtonBackground4" type="TextureRect" parent="CanvasLayer1"]
+offset_left = 56.0
+offset_top = 336.0
+offset_right = 270.0
+offset_bottom = 414.0
+texture = ExtResource("3_twyyf")
+expand_mode = 1
+
+[node name="Quit" type="Button" parent="CanvasLayer1/ButtonBackground4"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -152.0
+offset_top = -38.0
+offset_right = 153.0
+offset_bottom = 24.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.967961, 1.07799)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_normal_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_disabled_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_xrcvn")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/focus = SubResource("StyleBoxEmpty_s77fc")
+text = "Quit
+"
+flat = true
+clip_text = true
+metadata/_edit_group_ = true
+
 [node name="CanvasLayer2" type="CanvasLayer" parent="."]
 
 [node name="ColorRect" type="ColorRect" parent="CanvasLayer2"]
@@ -161,3 +263,5 @@ libraries = {
 
 [connection signal="pressed" from="CanvasLayer1/ButtonBackground/New" to="." method="_on_new_pressed"]
 [connection signal="pressed" from="CanvasLayer1/ButtonBackground2/Quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="CanvasLayer1/ButtonBackground3/Staff" to="." method="_on_staff_pressed"]
+[connection signal="pressed" from="CanvasLayer1/ButtonBackground4/Quit" to="." method="_on_quitstaff_pressed"]
